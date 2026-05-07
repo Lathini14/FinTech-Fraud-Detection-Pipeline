@@ -1,0 +1,36 @@
+=== FRAUD DETECTION RECONCILIATION REPORT ===
+Generated at,2026-05-06 12:00:04 UTC
+
+--- SUMMARY ---
+Total Ingress Amount ($),1543668.08
+Validated Amount ($),99307.41
+Fraud Amount ($),1444360.67
+Total Transactions,1777
+Validated Transactions,229
+Fraud Transactions Flagged,1548
+Fraud Rate (%),87.11
+
+--- VALIDATED TRANSACTIONS BY MERCHANT CATEGORY ---
+Category,Count,Total ($)
+healthcare,43,17419.74
+clothing,41,18394.27
+travel,39,18574.83
+electronics,37,15488.39
+food,36,17125.51
+entertainment,33,12304.67
+
+--- FRAUD ALERTS BY AMOUNT RANGE ---
+Amount Range,Count,Total ($)
+,1462,572440.97
+"$7,001 - $10,000",26,217653.91
+"$10,001 - $13,000",25,293187.01
+"Above $13,000",19,267385.30
+"$5,000 - $7,000",16,93693.48
+
+--- TOP 5 FLAGGED USERS ---
+User ID,Fraud Count,Total Fraud Amount ($)
+user_20,98,95081.50
+user_5,93,43878.35
+user_19,89,125813.40
+user_6,89,107613.82
+user_17,88,80239.72
